@@ -1,0 +1,423 @@
+  /*Chi tiết sản phẩm*/
+.panel-title{
+  color: green;
+}
+.thongbaosp{
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 10px;
+}
+.thongbaosp h4{
+    font-weight: bold;
+
+}
+#hinhsp img{
+    margin-left: 10%;
+    width: 70%;
+    height: auto;
+}
+#chitiets{
+}
+.gia_full{
+    width:100%; 
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.ten{
+    color: black;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+.giasp{
+    color:red;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+.giacu{
+    font-size: 18px;
+    margin-left: 10px;
+    color: gray;
+}
+.count{
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+.baohanh{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mt-5{
+  margin-bottom: 10px;
+}
+.them{
+    width: 48%;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background: #2aabd2;
+    border:1px solid #2aabd2;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.them:hover{
+    box-shadow: 1px 1px 5px black;
+
+}
+#thongtinsp{
+    margin-top: 50px;
+}
+#thongtinsp p{
+	width: 400px;
+	padding: 5px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
+#thongtinsp .l{
+	text-align: left;
+}
+#thongtinsp .r{
+	float: right;
+}
+#thongtinsp .title{
+	font-size: 22px;
+	border: none;
+}
+.danh-gia-san-pham{
+	float: left;
+	width: 500px;
+	margin-top: 8px;
+	box-sizing: content-box;
+	text-align: justify;
+}
+.ngan_chia{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: rgb(210, 210, 210);
+}
+.ten_sp{
+    margin-bottom: 10px;
+    color: #636363;
+}
+#danhgia{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+#danhgia p{
+    font-size: 20px;
+}
+#hinhsp{
+  box-shadow: 1px 1px 5px #E6E6E6;
+}
+
+/*Giỏ hàng*/
+.title{
+  border-bottom: 1px solid #000;
+}
+.cart_item{
+  width: 100%;
+  height: 150px;
+  box-shadow: 1px 1px 5px #C0C0C0;
+  margin-bottom: 10px;
+}
+.cart_left{
+  width: 50%;
+  padding-left: 5px;
+  float: left;
+}
+.check{
+  width: 30px;
+  height: 150px;
+  line-height: 150px;
+  float: left;
+}
+.check input{
+  width: 20px;
+  height: 20px;
+}
+.cart_img{
+  width: 120px;
+  height: 150px;
+  border-right: 1px solid #FAFAFA;
+  float: left;
+}
+.cart_img img{
+  width:110px;
+  height: auto;
+}
+.cart_content{
+  width: 60%;
+  height: 145px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-right: 1px solid #FAFAFA;
+  float: left;
+  text-align: center;
+}
+.cart_content a{
+  font-size: 20px;
+  color: #000;
+}
+.cart_mid{
+  width: 20%;
+  height: 150px;
+  float: left;
+  border-right: 1px solid #FAFAFA;
+}
+.price_item{
+  font-size: 19px;
+  color: #CA0000;
+}
+.price_sale{
+  font-size: 18px;
+  color: #000;
+}
+.cart_right{
+  width: 30%;
+  height: 50px;
+  float: left;
+  margin-top: 20px;
+}
+    .minus, .plus{
+      width:30px;
+      height:34px;
+      line-height: 34px;
+      border:1px solid #C0C0C0;
+      background: #FAFAFA;
+      vertical-align: middle;
+      text-align: center;
+      margin-right: -3px;
+      margin-left: -3px;
+    }
+    .minus:hover, .plus:hover{
+      background: #C0C0C0;
+    }
+    .soluongcart{
+      height:34px;
+      width: 60px;
+      text-align: center;
+      font-size: 26px;
+      border:1px solid #C0C0C0;
+      
+      vertical-align: middle;
+}
+.thanhtoan{
+  width: 100%;
+  height: 580px;
+  margin-top: -10px;
+  box-shadow: 1px 1px 5px #C0C0C0;
+}
+.thanhtoan a{
+  color: #CA0000;
+  margin-left: 10px;
+}
+.thanhtoan a:hover{
+  color: #2aabd2;
+  text-decoration: none;
+}
+.title_link{
+  width: 100%;
+  margin-bottom:10px; 
+}
+.title-tt{
+  width: 100%;
+  height: 40px;
+  background: #f2f2f2;
+  margin-bottom: 10px;
+}
+.title-tt h4{
+  padding-left: 10px;
+  text-align: left;
+  line-height: 40px;
+  color: #000;
+}
+.htthanhtoan{
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-bottom: 1px solid #C0C0C0;
+  border-top: 1px solid #C0C0C0;
+}
+.htthanhtoan input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.htthanhtoan img{
+  margin-right: 10px;
+}
+.thongtin{
+  width: 45%;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 5%;
+  float: left;
+}
+.giatien{
+  width: 50%;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  float:right;
+}
+.nhapma{
+  width: 60%;
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+.nhapma input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #2aabd2;
+}
+.apdung{
+  width: 35%;
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+.apdung button{
+  background: #2aabd2;
+  border:0;
+  width: 100%;
+  height: 40px;
+  color: #FFF;
+  border-radius: 5px;
+}
+.xacnhantt{
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #2aabd2;
+  border-radius: 5px; 
+  background: #2aabd2;
+  border:0;
+  color: #FFF;
+}
+.xacnhantt:hover{
+  color: black;
+}
+.title_tt{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.title_tt p{
+    font-size: 19px;
+    padding-left: 10px;
+    color: #000;
+}
+.diachi{
+  width: 70%;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+.diachi p{
+  margin-left: 7%;
+}
+.chinhsua{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+/*Thông tin khách hàng chưa đăng nhập*/
+.form-horizontal{
+  position: relative;
+  margin:10px;
+}
+#hh td{
+  line-height: 167px;
+}
+
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left:0 !important; 
+}
+.anhdonhang{
+  width: 100px;
+  height: auto;
+}
+.modal-body p{
+  font-size: 25px;
+  color: black;
+}
+#ghDN{
+  height: 40px;
+  background: #ff424e;  
+  text-shadow: 0 0px 0 #000;
+}
+#ghThoat{
+  height: 40px;
+  text-shadow: 0 0px 0 #000;
+  background: #00afef;
+}
+#mkc{
+  display:none;
+}
+#mkm{
+  display: none;
+}
+#mknl{
+  display: none;
+}
+.address-1{
+  background: #FAFAFA;
+  height: 120px;
+  margin-left: -1%;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.address-1 p{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.dropmenu1 li{
+  list-style: none;
+}
+.limenu1 a i{
+  padding-right: 10%;
+  font-size: 30px;
+  color: #00afef;
+}
+.limenu1 a span{
+  font-size: 17px;
+}
+#nametks{
+  margin-left: 50%;
+  text-transform: uppercase;
+}
